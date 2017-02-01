@@ -52,7 +52,7 @@ h2 {
 }
 
 .intro {
-  text-align: justify;
+  text-align: center;
 }
 
 /* BUTTON */
@@ -63,6 +63,9 @@ h2 {
   font-weight: 500;
   padding: 10px;
   border-radius: 4px;
+  display: block;
+  width: 120px;
+  margin: auto;
 }
 
 /* SOCIAL LOGOS */
@@ -163,4 +166,15 @@ h3 {
 
 .sidebar ul .fa {
   color: #788188
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+  .container {
+    margin-left: 0;
+  }
 }
