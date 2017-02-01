@@ -22,6 +22,14 @@ img {
   color: #DD5555;
 }
 
+.container {
+  margin-left: 120px;
+}
+
+.container-responsive {
+  width: 90%;
+  margin: 30px auto;
+}
 /* HEADER */
 .card:first-child img {
   width: 100px;
@@ -91,7 +99,6 @@ padding: 0;
 
 .card {
   background-color: white;
-  width: 500px;
   border-radius: 4px;
   margin: auto;
   padding: 20;
